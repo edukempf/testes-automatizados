@@ -1,0 +1,13 @@
+<phpunit bootstrap="vendor/autoload.php" colors="true" stopOnError="false">
+    <testsuites>
+        <testsuite name="smoke">
+            <file>tests/SigninTest.php</file>
+        </testsuite>
+        <testsuite name="regression">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="testdox-html" target="reports/index.html" />
+    </logging>
+</phpunit>
