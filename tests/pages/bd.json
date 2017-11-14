@@ -1,0 +1,18 @@
+{
+  "Unicesumar": {
+      "usuario"  : "unicesumar",
+      "senha"    : "123456",
+      "tipo"     : "phone",
+      "telefone" : "888888",
+      "tempo"    : 15
+
+  },
+  "Outro": {
+      "usuario"  :"unicesumar2",
+      "senha"    :"123456",
+      "tipo"     : "phone",
+      "telefone" : "9999998",
+      "tempo"    : 15
+
+  }
+}
