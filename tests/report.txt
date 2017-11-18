@@ -1,0 +1,40 @@
+[1mFeature:[22m Contact
+  In order to change info from my profile
+  As a ordinary user
+  I need to be able to manage my contacts
+  
+  Rules:
+  - I can add phones
+  - I can add telephones
+  - I can add duplicated data
+
+  [36m@importante[39m
+  [1mScenario Outline:[22m Adding a Phone    [30m# features\contact.feature:12[39m
+    [36mGiven I am logged in:[39m             [30m# FeatureContext::iAmLoggedIn()[39m
+[36m      | login   | password   | name   |
+      | <login> | <password> | <name> |[39m
+    [36mAnd I am seeing my contact data[39m   [30m# FeatureContext::iAmSeeingMyContactData()[39m
+    [36mWhen I add a new phone[39m            [30m# FeatureContext::iAddANewPhone()[39m
+    [36mThen I see a confirmation message[39m [30m# FeatureContext::iSeeAConfirmationMessage()[39m
+
+    [1mExamples:[22m
+      |[36;1m login      [39;22m|[36;1m password [39;22m|[36;1m name       [39;22m|
+      |[32m unicesumar [39m|[32m 123456   [39m|[32m Unicesumar [39m|
+      |[32m julio0001  [39m|[32m 123456   [39m|[32m Julio      [39m|
+
+  [1mScenario Outline:[22m Adding a Email    [30m# features\contact.feature:25[39m
+    [36mGiven I am logged in:[39m             [30m# FeatureContext::iAmLoggedIn()[39m
+[36m      | login   | password   | name   |
+      | <login> | <password> | <name> |[39m
+    [36mAnd I am seeing my contact data[39m   [30m# FeatureContext::iAmSeeingMyContactData()[39m
+    [36mWhen I add a new email[39m            [30m# FeatureContext::iAddANewEmail()[39m
+    [36mThen I see a confirmation message[39m [30m# FeatureContext::iSeeAConfirmationMessage()[39m
+
+    [1mExamples:[22m
+      |[36;1m login      [39;22m|[36;1m password [39;22m|[36;1m name       [39;22m|
+      |[32m unicesumar [39m|[32m 123456   [39m|[32m Unicesumar [39m|
+      |[32m julio0001  [39m|[32m 123456   [39m|[32m Julio      [39m|
+
+4 scenarios ([32m4 passed[39m)
+16 steps ([32m16 passed[39m)
+0m53.30s (10.10Mb)

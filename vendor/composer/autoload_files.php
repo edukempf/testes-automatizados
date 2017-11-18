@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
 );

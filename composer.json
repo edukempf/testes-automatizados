@@ -1,7 +1,8 @@
 {
   "require": {
     "phpunit/phpunit": "5.*",
-    "facebook/webdriver": "1.4.1"
+    "facebook/webdriver": "1.4.1",
+    "behat/behat": "3.4.1"
   },
 
   "autoload": {
